@@ -26,48 +26,31 @@ This is my personal portfolio website built with **ReactJS**, **NodeJS**, **Expr
 - **Project Showcase**: Includes a dedicated section to display my projects, including detailed descriptions and live demos.
 - **Contact Form**: A working contact form to get in touch.
 
-## 📂 Project Structure
+# Project Structure
 
-.git/                    # Git configuration files
-calculator-app/           # Separate calculator app folder
-│
-├── public/               # Public folder for static files
-├── src/                  # Source folder for React components (presumably)
-├── .gitignore            # Git ignore file for this project
-├── eslint.config.js      # ESLint configuration file
-├── index.html            # Main HTML file for the calculator app
-├── package-lock.json     # Lock file for NPM dependencies
-├── package.json          # NPM dependencies
-├── postcss.config.js     # PostCSS configuration
-├── README.md             # README for the calculator app
-├── tailwind.config.js    # TailwindCSS configuration
-└── vite.config.js        # Vite configuration for the calculator app
-│
-node_modules/             # Node modules for dependencies (not uploaded to version control)
-Portfolio_Website/        # Main portfolio website folder
-│
-├── backend/              # Backend folder for NodeJS and ExpressJS code
-│
-calculator-app/           # Duplicate calculator app folder inside Portfolio_Website
-│
-├── public/               # Public folder for static files
-├── src/                  # Source folder for React components (presumably)
-├── .gitignore            # Git ignore file
-├── eslint.config.js      # ESLint configuration
-├── index.html            # Main HTML file for the calculator app
-├── package-lock.json     # Lock file for NPM dependencies
-├── package.json          # NPM dependencies
-├── postcss.config.js     # PostCSS configuration
-├── README.md             # README file for the calculator app
-├── tailwind.config.js    # TailwindCSS configuration
-└── vite.config.js        # Vite configuration for the calculator app
-│
-portfolio-app/            # Folder for the main portfolio app (presumably)
-│
-├── .gitignore            # Git ignore file for the portfolio app
-├── package-lock.json     # Lock file for NPM dependencies
-├── package.json          # NPM dependencies
-└── README.md             # README file for the portfolio app
+Here is the folder structure of my portfolio website:
+
+```bash
+Portfolio_Website/
+├── backend/                     # Backend code (NodeJS, Express)
+├── node_modules/                # Node modules for dependencies
+├── portfolio-app/               # Main portfolio app
+│   ├── node_modules/            # Node modules for dependencies
+│   ├── public/                  # Public static files (index.html, etc.)
+│   ├── src/                     # ReactJS source files (components, etc.)
+│   ├── .gitignore               # Git ignore file for the portfolio app
+│   ├── eslint.config.js         # ESLint configuration file
+│   ├── index.html               # Main HTML file
+│   ├── package-lock.json        # NPM dependencies lock file
+│   ├── package.json             # NPM dependencies
+│   ├── postcss.config.js        # PostCSS configuration
+│   ├── README.md                # Readme file for portfolio app
+│   ├── tailwind.config.js       # Tailwind CSS configuration
+│   └── vite.config.js           # Vite configuration
+├── .gitignore                   # Root Git ignore file
+├── package-lock.json            # Root NPM dependencies lock file
+├── package.json                 # Root NPM dependencies
+└── README.md                    # Root Readme file
 
 
 
@@ -109,6 +92,7 @@ cd portfolio-app
 npm start
 
 
+
 ## 📬 Contact
 
 ###  If you have any questions or would like to collaborate, feel free to reach out:
@@ -116,8 +100,6 @@ npm start
 Email: muhammadasim4927@gmail.com
 LinkedIn: https://www.linkedin.com/in/muhammad-asim-764a8a273/
 Portfolio: Your Portfolio
-
-
 
 
 
