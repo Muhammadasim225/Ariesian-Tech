@@ -50,13 +50,27 @@ Start using the calculator by pressing the buttons, and observe the sound feedba
 
 ## Project Structure
 
+Here is the folder structure of my Calculator App website:
+
 ```bash
-src/
-├── assets/
-│   ├── img/
-│   │   ├── 8c43645fe8d0ac164a6925448be32858.jpg  # Background image
-│   │   └── zapsplat_office_calculator_button_single_press_004_81854.wav.wav # Button sound effect
-├── components/
-│   └── Theme.jsx      # Calculator component with all functionality
-└── App.jsx                 # Main App file
+Calculator_App/
+├── calculator-app/               # Main calculator app
+│   ├── node_modules/             # Node modules for dependencies
+│   ├── public/                   # Public static files (index.html, etc.)
+│   ├── src/                      # ReactJS source files (components, logic, etc.)
+│   ├── .gitignore                # Git ignore file for the calculator app
+│   ├── eslint.config.js          # ESLint configuration
+│   ├── index.html                # Main HTML file for the calculator app
+│   ├── package-lock.json         # Lock file for NPM dependencies
+│   ├── package.json              # NPM dependencies
+│   ├── postcss.config.js         # PostCSS configuration
+│   ├── README.md                 # Readme file for the calculator app
+│   ├── tailwind.config.js        # Tailwind CSS configuration
+│   └── vite.config.js            # Vite configuration file for the app
+├── node_modules/                 # Node modules for root dependencies
+├── package-lock.json             # Lock file for root NPM dependencies
+├── package.json                  # Root NPM dependencies
+└── README.md                     # Root README file
+
+
 
