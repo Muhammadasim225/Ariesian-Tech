@@ -1,53 +1,32 @@
-# Node modules
+# Ignore node_modules folder (for both frontend and backend)
 node_modules/
-client/node_modules/
-server/node_modules/
 
-# Logs
-logs/
-*.log
+# Ignore environment variables (sensitive information)
+.env
+
+# Log files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Environment variables
-.env
-client/.env
-server/.env
+# Build outputs
+dist/
+build/
 
-# Build directories
-client/build/
-server/build/
-
-# Dependency directories
-jspm_packages/
-
-# Optional npm cache directory
-.npm/
-
-# Optional eslint cache
-.eslintcache
-
-# Optional REPL history
-.node_repl_history
-
-# IDEs and editors
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# OS-specific files
+# OS specific files (optional)
 .DS_Store
 Thumbs.db
 
-# Miscellaneous
-*.pem
-*.p12
-*.key
-*.crt
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Ignore specific frontend files
+portfolio-app/node_modules/
+portfolio-app/.env.local
+
+# Ignore backend specific files
+backend/node_modules/
+backend/.env
+
+# Ignore Vercel specific build files
+.vercel/
+
+# Others (optional depending on tools and configs)
+*.log
