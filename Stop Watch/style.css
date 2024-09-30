@@ -1,0 +1,76 @@
+body {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.stopwatch-container {
+    margin: 80px auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#time-display {
+    font-size: 10vw;
+    margin-bottom: 20px;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 4vw;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius:5px;
+    outline:none;
+    border:none;
+}
+
+.controls button:hover {
+    background-color: #555;
+    color:white;
+}
+
+#lap-table {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+    border-collapse: collapse;
+}
+
+#lap-table th, #lap-table td {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    font-size: 3.5vw;
+    text-align: center;
+}
+
+#lap-table th {
+    background-color: #333;
+}
+
+@media (min-width: 768px) {
+    #time-display {
+        font-size: 60px;
+    }
+
+    .controls button {
+        font-size: 16px;
+    }
+
+    #lap-table th, #lap-table td {
+        font-size: 16px;
+    }
+}
