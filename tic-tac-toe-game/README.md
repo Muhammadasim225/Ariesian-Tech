@@ -55,6 +55,9 @@ A simple and interactive Tic-Tac-Toe game built with React. Players can compete 
 
 ![image](https://github.com/user-attachments/assets/a4d425a3-8a1d-48cb-a3f0-e3419400fddf)
 
+![image](https://github.com/user-attachments/assets/f1b00581-267b-4a2d-935d-bb97add3c3ce)
+
+
 ## Contributing
 
 If you'd like to contribute to this project, please fork the repository and create a pull request. All contributions are welcome!
