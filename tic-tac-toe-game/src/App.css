@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+.background-contain{
+  background-color: #C3DAD0; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; 
+  
+}
+.background-container {
+  background-image: url('./assets/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  position: relative;      /* Set position relative for absolute positioning of content */
+}
+.title{
+  position: relative;
+  left:10%; 
+  
+
+}
+.tixer{
+  letter-spacing: 2px;
+  font-size: 86px;
+   fill: #f4b26f; /* Text color */
+   stroke: #000000; /* Border color */
+   stroke-width: 0.7px; /* Border thickness */
+   font-size: 98px;
+   text-shadow: 
+   -1px -1px 0px #000,  /* Top left */
+    1px -1px 0px #000,  /* Top right */
+   -1px  1px 0px #000,  /* Bottom left */
+    1px  1px 0px #000;  /* Bottom right */
+
+}
+
+.gixer{
+  letter-spacing: 2px;
+  font-size: 86px;
+   fill: #f4b26f; /* Text color */
+   stroke: #ffffff; /* Border color */
+   stroke-width: 0.1px; /* Border thickness */
+   font-size: 88px;
+   text-shadow: 
+   -1px -1px 0px #000,  /* Top left */
+    1px -1px 0px #000,  /* Top right */
+   -1px  1px 0px #000,  /* Bottom left */
+    1px  1px 0px #000;  /* Bottom right */
+
+}
+
+.content {
+  position: relative;      /* Keep content on top of the background */
+  z-index: 1;             /* Ensure it stays above the background */
+  display: flex;          /* Use flexbox for alignment */
+  flex-direction: column;
+  gap: 20px;  
+  width:300px;  
+  text-align: center;
+  justify-content: center;
+  margin:0px auto; 
+  /* Creates a black border effect */
+
+}
+.lucker{
+  box-shadow: 6px 3px 6px 1px rgba(0, 0, 0, 0.3);
+  letter-spacing: 2px;
+    /* Set a fixed height *//* Adjust this value as needed */
+  /* Drop shadow */
+
+
+}
+
+
+
+
+/* Strike through */
+
+.strike {
+  position: absolute;
+  background-color: rgb(255, 0, 0);
+}
+
+.strike-row-1 {
+  width: 30%;
+  height: 4px;
+  top: 27%;
+}
+.strike-row-2 {
+  width: 30%;
+  height: 4px;
+  top: 49%;
+}
+.strike-row-3 {
+  width: 30%;
+  height: 4px;
+  top: 70%;
+}
+.strike-column-1 {
+  height: 63%;
+  width: 4px;
+  left: 36%;
+}
+.strike-column-2 {
+  height: 63%;
+  width: 4px;
+  left: 46%;
+}
+
+.strike-column-3 {
+  height: 63%;
+  width: 4px;
+  left: 56%;
+}
+.strike-diagonal-1 {
+  width: 27%;
+  height: 4px;
+  top: 50%;
+  left: 33%;
+  transform: skewY(45deg);
+}
+.strike-diagonal-2 {
+  width: 27%;
+  height: 4px;
+  top: 50%;
+  left: 32%;
+  transform: skewY(-45deg);
+}
+
