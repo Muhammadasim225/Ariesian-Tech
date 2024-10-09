@@ -47,6 +47,7 @@ This is a **ReactJS** based music player app developed as part of my internship 
 └── music-player-video.wmv
 
 
+
 ## 🎯 Getting Started
 
 Follow the instructions below to set up and run the project locally:
