@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.sidebar-container{
+  height:auto;
+}
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+.vertical-slider {
+  -webkit-appearance: none; /* Remove default styling */
+  width: 10px; /* Width of the slider */
+  height: 200px; /* Height of the slider */
+  background: transparent; /* Background is transparent to see the track color */
+  transform: rotate(270deg); /* Rotate to make it vertical */
+  margin-left: 20px; /* Space between the slider and other elements */
+}
+
+.vertical-slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Remove default styling */
+  background: #007bff; /* Color of the thumb */
+  height: 20px; /* Height of the thumb */
+  width: 20px; /* Width of the thumb */
+  border-radius: 50%; /* Make it round */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.vertical-slider::-moz-range-thumb {
+  background: #007bff; /* Color of the thumb */
+  height: 20px; /* Height of the thumb */
+  width: 20px; /* Width of the thumb */
+  border-radius: 50%; /* Make it round */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.vertical-slider::-ms-thumb {
+  background: #007bff; /* Color of the thumb */
+  height: 20px; /* Height of the thumb */
+  width: 20px; /* Width of the thumb */
+  border-radius: 50%; /* Make it round */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.vertical-slider::-webkit-slider-runnable-track {
+  width: 10px; /* Width of the track */
+  height: 200px; /* Height of the track */
+  background: #ccc; /* Color of the track */
+}
+
+.vertical-slider::-moz-range-track {
+  width: 10px; /* Width of the track */
+  height: 200px; /* Height of the track */
+  background: #ccc; /* Color of the track */
+}
+
+.vertical-slider::-ms-track {
+  width: 10px; /* Width of the track */
+  height: 200px; /* Height of the track */
+  background: #ccc; /* Color of the track */
+  border: none; /* Remove borders */
+  color: transparent; /* Hide color */
+}
