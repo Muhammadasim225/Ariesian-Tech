@@ -17,7 +17,7 @@ This is a **ReactJS** based music player app developed as part of my internship 
   
 ## 📂 Project Structure
 
-.
+
 ├── public
 │   └── index.html
 ├── src
