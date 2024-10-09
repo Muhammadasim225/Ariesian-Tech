@@ -53,32 +53,31 @@ Follow the instructions below to set up and run the project locally:
 
 ### 1. Clone the repository
 
-``bash
+``
 git clone https://github.com/username/music-player-app.git
 ``
 
 ## 2. Navigate to the project folder
 
-``bash
+``
 cd music-player-app
 ``
 
 
 ## 3. Install dependencies
 
-``bash
+``
 npm install
 ``
 
 ## 4. Start the app
 
-``bash
+``
 npm start
 ``
 
-``bash
-The app will run locally on http://localhost:3000
-``
+The app will run locally on ``http://localhost:3000``
+
 
 ## 🤝 Contributions
 
